@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <title>HTML Academy: Пинк</title>
   <link href="#" rel="stylesheet">
-  <link href="source/css/normalize.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <link href="#" rel="stylesheet">
 </head>
   <body>
@@ -99,12 +100,14 @@
       <p class="upload-photo__text">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
       <img class="upload-photo__image" src="#" width="50" height="100" alt="Фотография пользователя">
       <div class="upload-photo__filters">
-        <img class="upload-photo__filters-crop" src="#.svg" width="25" height="25" alt="Иконка кадрирование">
-        <img class="upload-photo__filters-fill" src="#.svg" width="25" height="25" alt="Иконка насыщенность">
-        <img class="upload-photo__filters-contrast" src="#.svg" width="25" height="25" alt="Иконка контраст">
-        <input type="range" min="0" max="100" step="1" value="80">
-        <button class="upload-photo__btn" type="button">Запостить</button>
-        <button class="upload-photo__btn" type="button">Отмена</button>
+        <form class="" action="https://echo.htmlacademy.ru" method="post">
+          <img class="upload-photo__filters-crop" src="#.svg" width="25" height="25" alt="Иконка кадрирование">
+          <img class="upload-photo__filters-fill" src="#.svg" width="25" height="25" alt="Иконка насыщенность">
+          <img class="upload-photo__filters-contrast" src="#.svg" width="25" height="25" alt="Иконка контраст">
+          <input type="range" min="0" max="100" step="1" value="80">
+          <button type="submit" class="upload-photo__btn" type="button">Запостить</button>
+          <button type="reset" class="upload-photo__btn" type="button">Отмена</button>
+        </form>
       </div>
     </section>
 
@@ -114,7 +117,7 @@
 
   <footer class="paige-footer">
 
-    <a class="paige-footer__logo">
+    <a class="paige-footer__light-logo">
       <img class="paige-footer__logo-image" src="#" width="100" height="50" alt="PINK">
     </a>
 
